@@ -1,0 +1,50 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.noble_heading {
+    color: #00acc2;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.main-div {
+    padding: 5px;
+    font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 40px 20px 20px 20px;
+}
+
+.main-div .Card {
+    min-width: 120px;
+    border: none;
+    box-shadow: 2px 3px 3px 0px gray;
+    padding: 5px 10px;
+    color: #00acc2;
+    background-color: #cdecf1;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+
+.main-div .Card:hover {
+    background-color: #00acc2;
+    color: #cdecf1;
+}
+
+.container .img-div {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

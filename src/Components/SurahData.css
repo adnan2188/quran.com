@@ -1,0 +1,219 @@
+/* getting the margin from body */
+.contaner {
+  margin: 0px 5%;
+}
+
+
+/* text page style */
+.text-main-div .text-area {
+  text-align: justify;
+  background-color: white;
+  padding: 15px 5px 5px 5px;
+  border: solid 5px black;
+  overflow-y: scroll;
+  height: 600px;
+  direction: rtl;
+  margin-bottom: 50px;
+}
+
+/* .text-main-div .text-area {
+  height: 600px;
+} */
+
+/* page title style */
+
+.page-title ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  font-family: Al Majeed Quranic Font;
+  list-style: none;
+  font-size: 20px;
+  padding: 5px;
+  border: solid 5px black;
+  border-bottom: none;
+}
+
+
+/* for gitting the space from header to home data */
+.header-style {
+  width: 90%;
+  margin: auto;
+  height: 50px;
+}
+
+/* بڑی سکرین کےلئے */
+.mainDiv {
+  display: flex;
+}
+
+/* سورہ کا انتخاب کریں */
+.mainDiv h3 {
+  cursor: pointer;
+  top: 12.8%;
+  left: 5%;
+  font-family: Jameel Noori Nastaleeq;
+  line-height: 20px;
+}
+
+.drop-down-div {
+  width: 30%;
+  bottom: 0;
+}
+
+.reading-aria {
+  width: 70%;
+  background-color: rgba(0, 0, 0, 0.067);
+  height: 645px;
+}
+
+/* for the hidden to on large screen (سورۃ کا انتخاب کریں) */
+.list-icon {
+  cursor: pointer;
+  display: none;
+}
+
+/* style for surah list on mid screen */
+@media screen and (max-width: 900px) {
+  .list-icon {
+    display: inline;
+    position: absolute;
+    top: 200px;
+  }
+
+  .drop-down-div {
+    display: none;
+    position: absolute;
+    left: 5%;
+    width: 60%;
+    top: 17.7%;
+  }
+
+  .reading-aria {
+    width: 90%;
+    margin: auto;
+  }
+
+  .drop-down-div.show {
+    display: block;
+  }
+
+  .contaner {
+    margin: 0px;
+  }
+}
+
+/* style for surah list header fro globaly */
+.header-list-style {
+  background-color: gray;
+  border: solid 4px;
+  border-bottom: none;
+  border-right: none;
+  height: 45px;
+  font-weight: 600;
+  font-size: 25px;
+  font-family: Jameel Noori Nastaleeq;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drop-down-div .cards-list {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  height: 600px;
+  border: solid 5px black;
+  border-right: none;
+  margin: 0px;
+  background-color: #b0b0b1;
+}
+
+.man-card {
+  height: 80px;
+  color: black;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-radius: 6px;
+  border: 1px solid #ebebed;
+  background-color: #fbfbfb;
+  margin: 5px 2px;
+}
+
+.Link {
+  text-decoration: none;
+}
+
+.man-card:hover {
+  box-shadow: 0 2px 3px 0 #e1e1e4;
+}
+
+.man-card .card-number {
+  background-color: #e1e1e4;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  color: #333647;
+  font-weight: 500;
+  margin-right: 3%;
+}
+
+.man-card .card-en-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-left: 0px;
+  text-align: left;
+  width: 47%;
+}
+
+.man-card .card-en-name .one {
+  letter-spacing: 1px;
+  color: #333647;
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px;
+}
+
+.man-card .card-en-name .two {
+  margin: 0px;
+  color: #71727e;
+  font-size: 10px;
+}
+
+.man-card .card-ar-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: right;
+  width: 47%;
+  text-align: right;
+}
+
+.man-card .card-ar-name .one {
+  word-spacing: 1px;
+  margin: 0px;
+  font-size: 20px;
+  color: #00acc2;
+  font-family: Al Majeed Quranic Font;
+}
+
+.man-card .card-ar-name .two {
+  margin: 0px;
+  margin-right: 10px;
+  margin-top: 7px;
+  color: #333647;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.man-card .card-ar-name .two span {
+  font-family: Jameel Noori Nastaleeq;
+  font-weight: 600;
+  margin-left: 2px;
+}

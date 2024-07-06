@@ -1,0 +1,59 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box
+}
+
+
+Top {
+    padding: 10px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50%;
+}
+
+.Bottom {
+    padding: 10px;
+    padding-right: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    height: 50%;
+}
+
+.arfont {
+    /* color: aqua; */
+    font-size: 29px;
+    font-weight: 400;
+    text-align: rights;
+    font-family: Al Majeed Quranic Font;
+    /* font-family: Al Qalam Quran; */
+    /* font-family: Muhammadi Quranic Font; */
+    direction: rtl;
+    line-height: 50px;
+}
+
+.arfont_ayah_number {
+    font-size: 15px;
+    font-family: Arial;
+    border: solid 1px black;
+    margin-right: 10px;
+    padding: 0px 5px;
+    border-radius: 50px;
+    font-weight: 500;
+}
+
+Bottom .trfont {
+    /* font-size: 19px;
+    font-family: Jameel Noori Nastaleeq;
+    direction: ltr;
+    text-align: left; */
+    font-family: ProximaVara;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 19px;
+    direction: ltr;
+    text-align: left;
+}

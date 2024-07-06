@@ -1,0 +1,89 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.cards-section{
+    margin: auto;
+    background-color: aqua;
+}
+.main-card{
+    /* font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; */
+    height: 80px;
+    color: black;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1px solid #ebebed;;
+    background-color: #fbfbfb;
+}
+.Link{
+    text-decoration: none;
+}
+.main-card:hover{
+    box-shadow: 0 2px 3px 0 #e1e1e4;
+}
+.main-card .card-number{
+    background-color: #e1e1e4;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    color: #333647;
+    font-weight: 500;
+    margin-right: 3%;
+}
+.main-card .card-en-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 0px;
+    text-align: left;
+    width: 47%;
+}
+.main-card .card-en-name .one{
+    letter-spacing: 1px;
+    color: #333647;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0px;
+}
+.main-card .card-en-name .two{
+    margin: 0px;
+    color: #71727e;
+    font-size: 14px;
+}
+
+.main-card .card-ar-name{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: right;
+    width: 47%;
+    text-align: right;
+}
+.main-card .card-ar-name .one{
+    word-spacing: 1px;
+    margin: 0px;
+    font-size: 25px;
+    color: #00acc2;
+    font-family: Al Majeed Quranic Font;
+}
+.main-card .card-ar-name .two{
+    margin: 0px;
+    margin-right: 10px;
+    margin-top:7px ;
+    color: #333647;
+    font-size: 14px;
+    font-weight: 600;
+}
+.main-card .card-ar-name .two span{
+    font-family: Jameel Noori Nastaleeq;
+    font-weight: 600;
+    margin-left: 2px;
+}
