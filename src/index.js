@@ -4,13 +4,13 @@ import "./index.css";
 import reportWebVitals from './reportWebVitals.js';
 import { RouterProvider } from "react-router-dom";
 import { createBrowserRouter } from "react-router-dom";
-import Home from "./Components/Home";
-import SurahData from "./Components/SurahData";
-import SurahCards from "./Components/SurahCards";
-import JuzData from "./Components/JuzData";
-import JuzCards from "./Components/JuzCards";
+import Home from "./Components/Home.jsx";
+import SurahData from "./Components/SurahData.jsx";
+import SurahCards from "./Components/SurahCards.jsx";
+import JuzData from "./Components/JuzData.jsx";
+import JuzCards from "./Components/JuzCards.jsx";
 import Juz_tsranslation from './Components/Juz_translation.jsx'
-import Layout from "./Layout";
+import Layout from "./Layout.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 
